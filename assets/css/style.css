@@ -1,3 +1,15 @@
 body {
-    background-color: rgb(200, 12, 75);
+    background-color: rgb(190, 99, 129);
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 300px;
+    margin: 10px;
+}
+
+.btn {
+    color: rgb(58, 30, 199);
+    background-color: white;
 }
