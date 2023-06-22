@@ -1,10 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => (
-    let form = document.querySelector('form')
-    form.addEventListener('submit', (e) => {
+    document.querySelector('form').addEventListener('submit', (e) => {
         e.preventDefault()
         buildTodo(e.target.new_todo.value)
-        form.reset()
-    })
+    } )
 ))
 
 function buildTodo(todo){
@@ -15,6 +13,7 @@ function buildTodo(todo){
     p.textContent = `${todo} `
     p.appendChild(btn)
     console.log(p)
+    // document.querySelector('#btn').appendChild(btn)
     document.querySelector('#todo').appendChild(p)
 }
 
