@@ -2,14 +2,24 @@ body {
     background-color: rgb(190, 99, 129);
 }
 
+.title {
+    color: white;
+}
+.sub-title {
+    color: white;
+}
+
 .card {
-    background: white;
+    background: rgb(62, 61, 61);
     width: 270px;
-    height: 300px;
-    margin: 10px;
+    height: 500px;
+    
+    /* margin: 200px; */
+    margin-left: 200px;
 }
 
 .btn {
     color: rgb(58, 30, 199);
     background-color: white;
 }
+
