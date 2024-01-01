@@ -3,18 +3,16 @@ body {
 }
 
 .title {
-    color: white;
+    color: rgb(9, 8, 8);
 }
 .sub-title {
-    color: white;
+    color: rgb(20, 4, 4);
 }
 
 .card {
-    background: rgb(62, 61, 61);
+    background: rgb(243, 235, 235);
     width: 270px;
     height: 500px;
-    
-    /* margin: 200px; */
     margin-left: 200px;
 }
 
